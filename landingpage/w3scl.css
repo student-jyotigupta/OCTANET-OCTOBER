@@ -1,0 +1,79 @@
+header {
+    color: #093348;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #093348; /* Text color */
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #093348; /* Text color */
+    font-size: 25px;
+}
+body{
+    background-image: url(background.jpg);
+}
+    img {
+       border-radius: 2px;
+        padding: 20px;
+        width: 300px;
+
+      }
+      .image{
+        display: inline-flex;
+        align-items: center;
+        padding:20px;
+      }
+      p{
+        color: #093348;
+        text-decoration: solid;
+        font-size: xx-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .social-links img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.2s ease; /* Add a hover effect */
+        border-color: #093348;
+    }
+    .social-links {
+        text-align: center;
+        margin-top: 01px;
+        border-radius: 20px;
+        border-color: #093348;
+    }
+    
+    .social-links a {
+        display: inline-block;
+        margin: 10 10px;
+        border-radius: 20px;
+        border-color: #093348;
+    }
+    .social-links img:hover {
+        transform: scale(1.2); /* Enlarge the icon on hover */
+    }
+    button{
+        background-color:#093348; /* Button background color */
+        color: #dbe3f4; /* Text color */
+        padding: 10px 50px 10px 20px; /* Button padding */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .button
+    {
+        padding-left:600px;
+        padding-top: 0%;
+        padding-bottom: 20px;
+    }
